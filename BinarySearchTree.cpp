@@ -10,7 +10,7 @@ public :
 
     node ()
     {
-        
+        leftchild = nullptr;
     }
 
 };
