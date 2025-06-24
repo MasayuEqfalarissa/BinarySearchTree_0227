@@ -42,5 +42,10 @@ public :
         node *parent = nullptr;
         node *currentnode = nullptr;
         search(x, parent, currentnode);
+
+        if (parent == nullptr)
+        {
+            
+        }
     }
 };
