@@ -18,5 +18,8 @@ public :
 
 class binarytree
 {
+public :
+    node * root;
 
+  
 };
