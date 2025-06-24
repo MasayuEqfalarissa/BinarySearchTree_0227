@@ -124,6 +124,9 @@ public :
         cout << ptr->info << " ";
     }
 
-
+    bool isempty()
+    {
+        return root == nullptr;
+    }
     
 };
