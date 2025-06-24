@@ -8,5 +8,9 @@ public :
     node * leftchild;
     node * rightchild;
 
-    
+    node ()
+    {
+        
+    }
+
 };
