@@ -45,7 +45,8 @@ public :
 
         if (parent == nullptr)
         {
-            
+            root = newnode;
+            return;
         }
     }
 };
