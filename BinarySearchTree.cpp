@@ -54,5 +54,10 @@ public :
             parent -> leftchild = newnode;
             return ;
         }
+
+        else if (x > parent -> info)
+        {
+
+        }
     }
 };
