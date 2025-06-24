@@ -33,5 +33,7 @@ public :
         cin >> x;
 
         node *newnode = new node();
+
+        newnode->info = x;
     }
 };
