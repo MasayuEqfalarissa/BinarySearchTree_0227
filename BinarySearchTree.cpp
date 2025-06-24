@@ -38,5 +38,9 @@ public :
 
         newnode->leftchild = nullptr;
         newnode->rightchild = nullptr;
+
+        node *parent = nullptr;
+        node *currentnode = nullptr;
+        search(x, parent, currentnode);
     }
 };
