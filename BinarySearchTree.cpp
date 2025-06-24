@@ -48,5 +48,10 @@ public :
             root = newnode;
             return;
         }
+
+        if (x < parent->info)
+        {
+            
+        }
     }
 };
