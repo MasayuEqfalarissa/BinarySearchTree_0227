@@ -35,5 +35,8 @@ public :
         node *newnode = new node();
 
         newnode->info = x;
+
+        newnode->leftchild = nullptr;
+        newnode->rightchild = nullptr;
     }
 };
