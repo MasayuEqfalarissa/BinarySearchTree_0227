@@ -31,5 +31,7 @@ public :
         int x;
         cout << "masukkan nilai: ";
         cin >> x;
+
+        node *newnode = new node();
     }
 };
