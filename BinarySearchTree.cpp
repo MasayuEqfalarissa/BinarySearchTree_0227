@@ -51,7 +51,8 @@ public :
 
         if (x < parent->info)
         {
-            
+            parent -> leftchild = newnode;
+            return ;
         }
     }
 };
