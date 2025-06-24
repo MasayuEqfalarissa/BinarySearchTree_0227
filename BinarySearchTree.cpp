@@ -11,6 +11,7 @@ public :
     node ()
     {
         leftchild = nullptr;
+        rightchild = nullptr;
     }
 
 };
